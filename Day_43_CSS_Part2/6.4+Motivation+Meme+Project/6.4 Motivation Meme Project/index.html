@@ -1,0 +1,80 @@
+<!-- 
+  Este es un documento HTML básico que presenta una página web simple titulada "La noche estrellada".
+  Aquí hay comentarios que explican cada línea del código:
+
+  Document Type Declaration (Declaración del Tipo de Documento):
+  - <!DOCTYPE html>: Define la versión de HTML que se está utilizando.
+
+  Etiqueta <html>:
+  - lang="en": Atributo que especifica el idioma del contenido de la página (inglés).
+
+  Etiqueta <head>:
+  - Contiene información meta, título de la página y enlaces a hojas de estilo externas.
+
+  Metaetiquetas:
+  - charset="UTF-8": Define el conjunto de caracteres como UTF-8 para admitir caracteres especiales.
+  - viewport: Configura la escala inicial y el ancho del viewport para dispositivos móviles.
+
+  Título de la página:
+  - <title>La noche estrellada</title>: Define el título de la página que se muestra en la pestaña del navegador.
+ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La noche estrellada</title>
+  
+  <style>
+    /* Esto es para el título */
+    h1 {
+      font-family: 'Libre Baskerville'; /* Usa la fuente 'Libre Baskerville' */
+      color: white; /* Color del texto blanco */
+      text-align: center; /* Centra el texto en el contenedor */
+      text-transform: uppercase; /* Transforma el texto a mayúsculas */
+      font-size: 3rem; /* Establece el tamaño de la fuente en 3 rem */
+    }
+
+    body {
+      background-color: black; /* Establece el color de fondo en negro */
+    }
+
+    p {
+      color: white; /* Color del texto blanco */
+      font-size: 1.7rem; /* Establece el tamaño de la fuente en 1.7 rem */
+      text-align: center; /* Centra el texto en el contenedor */
+      font-style: italic; /* Establece el estilo de la fuente en cursiva */
+    }
+
+    /* Esto es para modificar la caja que contiene h1, p e img */
+    #box {
+      margin-top: 100px; /* Agrega espacio en la parte superior del contenedor */
+      width: 50%; /* Establece el ancho del contenedor en el 50% del viewport */
+      padding: 20px; /* Agregar un poco de relleno al contenedor */
+      box-sizing: border-box; /* Incluir el relleno y el borde en el ancho/altura total */
+      margin: auto; /* Centrar horizontalmente el contenedor */
+    }
+
+    #foto1 {
+      width: 100%; /* Hacer que la imagen llene el contenedor */
+      height: auto; /* Mantener la proporción original de la imagen */
+      display: block; /* Bloquea la imagen para permitir el ajuste de márgenes */
+      margin: auto; /* Centra la imagen horizontalmente */
+      border: 5px solid white; /* Agrega un borde blanco de 5 píxeles alrededor de la imagen */
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville">
+</head>
+
+<body>
+  <div id="box">
+    <h1>La noche estrellada</h1>
+    <img id="foto1" src="noche_estrellada.jpg">
+    <p>
+      Bajo el lienzo del cielo estrellado, y entre risas que se iluminan como estrellas, tejemos recuerdos de nuestra eterna amistad
+    </p>
+  </div>
+</body>
+</html>
