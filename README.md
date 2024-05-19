@@ -1,6 +1,8 @@
-# Python Projects
+# Python Projects for Learning
 
-Este repositorio contiene varios proyectos desarrollados durante diferentes días. Cada proyecto está organizado en su propio directorio con el código fuente y archivos necesarios.
+Este repositorio contiene varios proyectos desarrollados durante diferentes días para desarrollar mejores habilidades con el lenguaje de programación Python, es por ello que los programas son susceptibles a ser mejorados en algún futuro; no son perfectos. 
+Cada proyecto está organizado en su propio directorio con el código fuente y archivos necesarios.
+
 
 ## Contenido
 
