@@ -30,7 +30,5 @@ Se utilizó la librería BeautifulSoup para realizar web scraping, extrayendo da
 ### Day 45: MovieList
 Se desarrolló un programa para gestionar una lista de películas utilizando un archivo de texto para almacenar los títulos de las películas.
 
-### Day 46: Spotify
-Se implementó una aplicación que interactúa con la API de Spotify para crear listas de reproducción basadas en criterios específicos.
 
 
